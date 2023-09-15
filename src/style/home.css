@@ -142,3 +142,55 @@
 
   cursor: pointer;
 }
+
+
+/* ==================== */
+/* == CONTENT BODY AREA == */
+/* ==================== */
+
+
+.content-result-pane {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+.content-container {
+  display: flex;
+  /* background-color: orange; */
+
+  justify-content: space-between;
+  width: 335px;
+ 
+}
+
+.sortby-card {
+  display: flex;
+  gap: 8px;
+}
+
+.sort-by,
+.latest,
+.cheapest,
+.span-search,
+.span-items {
+  font-size: 20px;
+  font-weight: 500;
+}
+.sort-by {
+  text-transform: uppercase;
+}
+
+.span-items {
+  color: var(--Brand, #362343);
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+.cheapest,
+.span-search {
+  color: var(--black-surface-black-5, #737373);
+  font-weight: 400;
+}
+
