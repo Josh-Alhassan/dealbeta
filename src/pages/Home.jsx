@@ -8,6 +8,8 @@ import {
   Slider,
 } from "@mui/material";
 
+// import profileOne from 'ass'
+
 function Home() {
   return (
     <section className="pt-16 bg-white flex">
@@ -404,8 +406,11 @@ function Home() {
             </ul>
           </div>
           <div className="content-result-pane p-3 pt-5">
-            <span className="span-search">Search results for “iPhone 14 Pro Max” <span className="span-items"> 235 items</span> </span> 
-            <div className= "content-container">
+            <span className="span-search">
+              Search results for “iPhone 14 Pro Max”{" "}
+              <span className="span-items"> 235 items</span>{" "}
+            </span>
+            <div className="content-container">
               {/* <div className="result-cards"></div> */}
 
               {/* SORTBY CARD */}
@@ -430,6 +435,1221 @@ function Home() {
               <span className="cheapest">Cheapest</span>
               {/* End Trial Phase */}
             </div>
+          </div>
+
+          {/* ############################################## */}
+          {/* =========== PRODUCT PROFILES SECTION ========= */}
+          {/* ############################################## */}
+
+          <div className="product-profiles">
+            {/* PROFILE 1 */}
+            <div className="product-profile product-profile--1">
+              <div className="product-header">
+                <div className="profile-img">
+                  {/* <img src="" alt="" className="profile-img" /> */}
+                </div>
+
+                <div className="profile-info">
+                  <h3 className="profile-name">Josh Gadgets</h3>
+
+                  <div className="product-rating">
+                    {/* Profile Rating SVG */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 2 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 3 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 4 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 5 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    <span className="no-five">5</span>
+                  </div>
+                </div>
+              </div>
+
+              <h3 className="product-title">Apple iPhone 14 Pro Max</h3>
+
+              {/* Product Price and State */}
+              <div className="product-details">
+                <h2 className="product-price">₦4,000,000</h2>
+
+                <div className="product-state">
+                  {/* Country SVG */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_377_2637)">
+                      <path
+                        d="M2.66667 3.33331C1.95942 3.33331 1.28115 3.61426 0.781049 4.11436C0.280952 4.61446 0 5.29274 0 5.99998L0 18C0 18.7072 0.280952 19.3855 0.781049 19.8856C1.28115 20.3857 1.95942 20.6666 2.66667 20.6666H8V3.33331H2.66667Z"
+                        fill="#009A49"
+                      />
+                      <path
+                        d="M8 3.33331H16V20.6666H8V3.33331Z"
+                        fill="#EEEEEE"
+                      />
+                      <path
+                        d="M21.3333 3.33331H16V20.6666H21.3333C22.0406 20.6666 22.7189 20.3857 23.219 19.8856C23.719 19.3855 24 18.7072 24 18V5.99998C24 5.29274 23.719 4.61446 23.219 4.11436C22.7189 3.61426 22.0406 3.33331 21.3333 3.33331Z"
+                        fill="#009A49"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_377_2637">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  <span className="span-state">Nigerian Used</span>
+                </div>
+              </div>
+
+              {/* Product Logistics */}
+              <div className="product-logistics">
+                <div className="product-logistics-list">+ Free delivery</div>
+                <div className="product-logistics-list">+ 2 year warranty</div>
+                <div className="product-logistics-list">
+                  + Available in black
+                </div>
+              </div>
+            </div>
+
+            {/* PROFILE 2 */}
+            <div className="product-profile product-profile--1">
+              <div className="product-header">
+                <div className="profile-img">
+                  {/* <img src="" alt="" className="profile-img" /> */}
+                </div>
+
+                <div className="profile-info">
+                  <h3 className="profile-name">Pascal's Gadgets</h3>
+
+                  <div className="product-rating">
+                    {/* Profile Rating SVG */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 2 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 3 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 4 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 5 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    <span className="no-five">5</span>
+                  </div>
+                </div>
+              </div>
+
+              <h3 className="product-title">Nokia C21 Plus</h3>
+
+              {/* Product Price and State */}
+              <div className="product-details">
+                <h2 className="product-price">₦4,000,000</h2>
+
+                <div className="product-state">
+                  {/* Country SVG */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_377_2680)">
+                      <path
+                        d="M22.74 16.3267L20.1267 11.9134L22.7133 7.68002C22.7747 7.57914 22.8083 7.46376 22.8104 7.34567C22.8126 7.22759 22.7834 7.11104 22.7258 7.00796C22.6681 6.90488 22.5841 6.81896 22.4824 6.759C22.3806 6.69904 22.2648 6.66718 22.1467 6.66669H1.33333C0.979711 6.66669 0.640573 6.80716 0.390524 7.05721C0.140476 7.30726 0 7.6464 0 8.00002L0 16C0 16.3536 0.140476 16.6928 0.390524 16.9428C0.640573 17.1929 0.979711 17.3334 1.33333 17.3334H22.1667C22.2843 17.3333 22.3999 17.3022 22.5016 17.243C22.6034 17.1839 22.6876 17.0989 22.7458 16.9966C22.8041 16.8944 22.8342 16.7785 22.8332 16.6609C22.8322 16.5432 22.8 16.4279 22.74 16.3267ZM7.00667 14.12H6.26L4.08667 11.2267V14.1267H3.33333V10H4.08667L6.26667 12.9V10H7.01333L7.00667 14.12ZM11.2267 10.6667H8.87333V11.66H11.0067V12.3267H8.87333V13.4H11.2267V14.0667H8.12V10H11.22L11.2267 10.6667ZM16.7533 14.1067H16L14.9667 11.0467L13.9333 14.12H13.1867L11.8533 10H12.6667L13.5467 12.9534L14.56 10H15.3733L16.3467 12.9534L17.2333 10H18.0533L16.7533 14.1067Z"
+                        fill="#6C4686"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_377_2680">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  <span className="span-state">Brand New</span>
+                </div>
+              </div>
+
+              {/* Product Logistics */}
+              <div className="product-logistics">
+                <div className="product-logistics-list">+ Free delivery</div>
+                <div className="product-logistics-list">+ 2 year warranty</div>
+                <div className="product-logistics-list">
+                  + Available in black
+                </div>
+              </div>
+            </div>
+            {/* End of Profile 2 */}
+
+            {/* PROFILE 3 */}
+            <div className="product-profile product-profile--1">
+              <div className="product-header">
+                <div className="profile-img">
+                  {/* <img src="" alt="" className="profile-img" /> */}
+                </div>
+
+                <div className="profile-info">
+                  <h3 className="profile-name">Femi & Tunde Gadgets</h3>
+
+                  <div className="product-rating">
+                    {/* Profile Rating SVG */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 2 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 3 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 4 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 5 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    <span className="no-five">5</span>
+                  </div>
+                </div>
+              </div>
+
+              <h3 className="product-title">Google Pixel 6a</h3>
+
+              {/* Product Price and State */}
+              <div className="product-details">
+                <h2 className="product-price">₦4,000,000</h2>
+
+                <div className="product-state">
+                  {/* Country SVG */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_377_2722)">
+                      <path
+                        d="M6.69995 12C6.70369 13.1083 6.84249 14.212 7.11328 15.2867H11.4333V8.96667H7.05328C6.82283 9.96146 6.70432 10.9789 6.69995 12Z"
+                        fill="#6C4686"
+                      />
+                      <path
+                        d="M12.5667 8.96667V15.2867H16.8867C17.1687 14.2134 17.3187 13.1097 17.3333 12C17.3311 10.9791 17.2149 9.96171 16.9866 8.96667H12.5667Z"
+                        fill="#6C4686"
+                      />
+                      <path
+                        d="M11.9999 1.33331C9.89026 1.33331 7.82797 1.9589 6.07384 3.13097C4.31972 4.30304 2.95254 5.96894 2.14521 7.91802C1.33787 9.8671 1.12664 12.0118 1.53821 14.0809C1.94979 16.1501 2.96569 18.0507 4.45745 19.5425C5.94921 21.0342 7.84983 22.0501 9.91896 22.4617C11.9881 22.8733 14.1328 22.662 16.0819 21.8547C18.031 21.0474 19.6969 19.6802 20.8689 17.9261C22.041 16.1719 22.6666 14.1096 22.6666 12C22.6666 9.171 21.5428 6.4579 19.5424 4.45751C17.542 2.45712 14.8289 1.33331 11.9999 1.33331ZM20.1466 16.4733H17.7333C17.277 17.9018 16.6023 19.2512 15.7333 20.4733C15.092 20.7528 14.421 20.9586 13.7333 21.0866C14.9649 19.7483 15.9128 18.1745 16.5199 16.46H12.5733V21.2266H11.4466V16.4733H7.47992C8.0862 18.1902 9.03417 19.7664 10.2666 21.1066C9.59303 20.98 8.93565 20.7787 8.30659 20.5066C7.43447 19.2742 6.75971 17.9135 6.30659 16.4733H3.85326C3.64028 16.0848 3.45537 15.6815 3.29992 15.2666H5.96659C5.71672 14.1955 5.58703 13.0999 5.57992 12C5.58029 10.9805 5.68754 9.9638 5.89992 8.96665H3.17326C3.31345 8.55297 3.48277 8.14974 3.67992 7.75998H6.21992C6.69652 6.17267 7.43563 4.67641 8.40659 3.33331C9.02231 3.07819 9.66382 2.89043 10.3199 2.77331C8.9937 4.19668 7.99281 5.89138 7.38659 7.73998H11.4466V2.66665H12.5733V7.75998H16.6333C16.0281 5.91434 15.0296 4.22204 13.7066 2.79998C14.3616 2.90864 15.0031 3.08745 15.6199 3.33331C16.5852 4.66671 17.322 6.15143 17.7999 7.72665H20.3133C20.5104 8.11642 20.6797 8.51964 20.8199 8.93331H18.1133C18.3302 9.94112 18.4397 10.9691 18.4399 12C18.4365 13.1063 18.309 14.2087 18.0599 15.2866H20.7266C20.5616 15.6955 20.3678 16.092 20.1466 16.4733Z"
+                        fill="#6C4686"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_377_2722">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  <span className="span-state">Foreign Used</span>
+                </div>
+              </div>
+
+              {/* Product Logistics */}
+              <div className="product-logistics">
+                <div className="product-logistics-list">+ Free delivery</div>
+                <div className="product-logistics-list">+ 2 year warranty</div>
+                <div className="product-logistics-list">
+                  + Available in black
+                </div>
+              </div>
+            </div>
+            {/* End of Profile 3 */}
+
+            {/* PROFILE 4 */}
+            <div className="product-profile product-profile--1">
+              <div className="product-header">
+                <div className="profile-img">
+                  {/* <img src="" alt="" className="profile-img" /> */}
+                </div>
+
+                <div className="profile-info">
+                  <h3 className="profile-name">Josh Gadgets</h3>
+
+                  <div className="product-rating">
+                    {/* Profile Rating SVG */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 2 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 3 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 4 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 5 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    <span className="no-five">5</span>
+                  </div>
+                </div>
+              </div>
+
+              <h3 className="product-title">Apple iPhone 14 Pro Max</h3>
+
+              {/* Product Price and State */}
+              <div className="product-details">
+                <h2 className="product-price">₦4,000,000</h2>
+
+                <div className="product-state">
+                  {/* Country SVG */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_377_2637)">
+                      <path
+                        d="M2.66667 3.33331C1.95942 3.33331 1.28115 3.61426 0.781049 4.11436C0.280952 4.61446 0 5.29274 0 5.99998L0 18C0 18.7072 0.280952 19.3855 0.781049 19.8856C1.28115 20.3857 1.95942 20.6666 2.66667 20.6666H8V3.33331H2.66667Z"
+                        fill="#009A49"
+                      />
+                      <path
+                        d="M8 3.33331H16V20.6666H8V3.33331Z"
+                        fill="#EEEEEE"
+                      />
+                      <path
+                        d="M21.3333 3.33331H16V20.6666H21.3333C22.0406 20.6666 22.7189 20.3857 23.219 19.8856C23.719 19.3855 24 18.7072 24 18V5.99998C24 5.29274 23.719 4.61446 23.219 4.11436C22.7189 3.61426 22.0406 3.33331 21.3333 3.33331Z"
+                        fill="#009A49"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_377_2637">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  <span className="span-state">Nigerian Used</span>
+                </div>
+              </div>
+
+              {/* Product Logistics */}
+              <div className="product-logistics">
+                <div className="product-logistics-list">+ Free delivery</div>
+                <div className="product-logistics-list">+ 2 year warranty</div>
+                <div className="product-logistics-list">
+                  + Available in black
+                </div>
+              </div>
+            </div>
+            {/* End of profile 4 */}
+
+            {/* PROFILE 5 */}
+            <div className="product-profile product-profile--1">
+              <div className="product-header">
+                <div className="profile-img">
+                  {/* <img src="" alt="" className="profile-img" /> */}
+                </div>
+
+                <div className="profile-info">
+                  <h3 className="profile-name">Pascal's Gadgets</h3>
+
+                  <div className="product-rating">
+                    {/* Profile Rating SVG */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 2 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 3 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 4 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 5 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    <span className="no-five">5</span>
+                  </div>
+                </div>
+              </div>
+
+              <h3 className="product-title">Nokia C21 Plus</h3>
+
+              {/* Product Price and State */}
+              <div className="product-details">
+                <h2 className="product-price">₦4,000,000</h2>
+
+                <div className="product-state">
+                  {/* Country SVG */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_377_2680)">
+                      <path
+                        d="M22.74 16.3267L20.1267 11.9134L22.7133 7.68002C22.7747 7.57914 22.8083 7.46376 22.8104 7.34567C22.8126 7.22759 22.7834 7.11104 22.7258 7.00796C22.6681 6.90488 22.5841 6.81896 22.4824 6.759C22.3806 6.69904 22.2648 6.66718 22.1467 6.66669H1.33333C0.979711 6.66669 0.640573 6.80716 0.390524 7.05721C0.140476 7.30726 0 7.6464 0 8.00002L0 16C0 16.3536 0.140476 16.6928 0.390524 16.9428C0.640573 17.1929 0.979711 17.3334 1.33333 17.3334H22.1667C22.2843 17.3333 22.3999 17.3022 22.5016 17.243C22.6034 17.1839 22.6876 17.0989 22.7458 16.9966C22.8041 16.8944 22.8342 16.7785 22.8332 16.6609C22.8322 16.5432 22.8 16.4279 22.74 16.3267ZM7.00667 14.12H6.26L4.08667 11.2267V14.1267H3.33333V10H4.08667L6.26667 12.9V10H7.01333L7.00667 14.12ZM11.2267 10.6667H8.87333V11.66H11.0067V12.3267H8.87333V13.4H11.2267V14.0667H8.12V10H11.22L11.2267 10.6667ZM16.7533 14.1067H16L14.9667 11.0467L13.9333 14.12H13.1867L11.8533 10H12.6667L13.5467 12.9534L14.56 10H15.3733L16.3467 12.9534L17.2333 10H18.0533L16.7533 14.1067Z"
+                        fill="#6C4686"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_377_2680">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  <span className="span-state">Brand New</span>
+                </div>
+              </div>
+
+              {/* Product Logistics */}
+              <div className="product-logistics">
+                <div className="product-logistics-list">+ Free delivery</div>
+                <div className="product-logistics-list">+ 2 year warranty</div>
+                <div className="product-logistics-list">
+                  + Available in black
+                </div>
+              </div>
+            </div>
+            {/* End of Profile 5*/}
+
+            {/* PROFILE 6 */}
+            <div className="product-profile product-profile--1">
+              <div className="product-header">
+                <div className="profile-img">
+                  {/* <img src="" alt="" className="profile-img" /> */}
+                </div>
+
+                <div className="profile-info">
+                  <h3 className="profile-name">Femi & Tunde Gadgets</h3>
+
+                  <div className="product-rating">
+                    {/* Profile Rating SVG */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 2 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 3 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 4 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 5 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    <span className="no-five">5</span>
+                  </div>
+                </div>
+              </div>
+
+              <h3 className="product-title">Google Pixel 6a</h3>
+
+              {/* Product Price and State */}
+              <div className="product-details">
+                <h2 className="product-price">₦4,000,000</h2>
+
+                <div className="product-state">
+                  {/* Country SVG */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_377_2722)">
+                      <path
+                        d="M6.69995 12C6.70369 13.1083 6.84249 14.212 7.11328 15.2867H11.4333V8.96667H7.05328C6.82283 9.96146 6.70432 10.9789 6.69995 12Z"
+                        fill="#6C4686"
+                      />
+                      <path
+                        d="M12.5667 8.96667V15.2867H16.8867C17.1687 14.2134 17.3187 13.1097 17.3333 12C17.3311 10.9791 17.2149 9.96171 16.9866 8.96667H12.5667Z"
+                        fill="#6C4686"
+                      />
+                      <path
+                        d="M11.9999 1.33331C9.89026 1.33331 7.82797 1.9589 6.07384 3.13097C4.31972 4.30304 2.95254 5.96894 2.14521 7.91802C1.33787 9.8671 1.12664 12.0118 1.53821 14.0809C1.94979 16.1501 2.96569 18.0507 4.45745 19.5425C5.94921 21.0342 7.84983 22.0501 9.91896 22.4617C11.9881 22.8733 14.1328 22.662 16.0819 21.8547C18.031 21.0474 19.6969 19.6802 20.8689 17.9261C22.041 16.1719 22.6666 14.1096 22.6666 12C22.6666 9.171 21.5428 6.4579 19.5424 4.45751C17.542 2.45712 14.8289 1.33331 11.9999 1.33331ZM20.1466 16.4733H17.7333C17.277 17.9018 16.6023 19.2512 15.7333 20.4733C15.092 20.7528 14.421 20.9586 13.7333 21.0866C14.9649 19.7483 15.9128 18.1745 16.5199 16.46H12.5733V21.2266H11.4466V16.4733H7.47992C8.0862 18.1902 9.03417 19.7664 10.2666 21.1066C9.59303 20.98 8.93565 20.7787 8.30659 20.5066C7.43447 19.2742 6.75971 17.9135 6.30659 16.4733H3.85326C3.64028 16.0848 3.45537 15.6815 3.29992 15.2666H5.96659C5.71672 14.1955 5.58703 13.0999 5.57992 12C5.58029 10.9805 5.68754 9.9638 5.89992 8.96665H3.17326C3.31345 8.55297 3.48277 8.14974 3.67992 7.75998H6.21992C6.69652 6.17267 7.43563 4.67641 8.40659 3.33331C9.02231 3.07819 9.66382 2.89043 10.3199 2.77331C8.9937 4.19668 7.99281 5.89138 7.38659 7.73998H11.4466V2.66665H12.5733V7.75998H16.6333C16.0281 5.91434 15.0296 4.22204 13.7066 2.79998C14.3616 2.90864 15.0031 3.08745 15.6199 3.33331C16.5852 4.66671 17.322 6.15143 17.7999 7.72665H20.3133C20.5104 8.11642 20.6797 8.51964 20.8199 8.93331H18.1133C18.3302 9.94112 18.4397 10.9691 18.4399 12C18.4365 13.1063 18.309 14.2087 18.0599 15.2866H20.7266C20.5616 15.6955 20.3678 16.092 20.1466 16.4733Z"
+                        fill="#6C4686"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_377_2722">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  <span className="span-state">Foreign Used</span>
+                </div>
+              </div>
+
+              {/* Product Logistics */}
+              <div className="product-logistics">
+                <div className="product-logistics-list">+ Free delivery</div>
+                <div className="product-logistics-list">+ 2 year warranty</div>
+                <div className="product-logistics-list">
+                  + Available in black
+                </div>
+              </div>
+            </div>
+            {/* End of Profile 6 */}
+
+            {/* PROFILE 7 */}
+            <div className="product-profile product-profile--1">
+              <div className="product-header">
+                <div className="profile-img">
+                  {/* <img src="" alt="" className="profile-img" /> */}
+                </div>
+
+                <div className="profile-info">
+                  <h3 className="profile-name">Josh Gadgets</h3>
+
+                  <div className="product-rating">
+                    {/* Profile Rating SVG */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 2 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 3 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 4 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 5 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    <span className="no-five">5</span>
+                  </div>
+                </div>
+              </div>
+
+              <h3 className="product-title">Apple iPhone 14 Pro Max</h3>
+
+              {/* Product Price and State */}
+              <div className="product-details">
+                <h2 className="product-price">₦4,000,000</h2>
+
+                <div className="product-state">
+                  {/* Country SVG */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_377_2637)">
+                      <path
+                        d="M2.66667 3.33331C1.95942 3.33331 1.28115 3.61426 0.781049 4.11436C0.280952 4.61446 0 5.29274 0 5.99998L0 18C0 18.7072 0.280952 19.3855 0.781049 19.8856C1.28115 20.3857 1.95942 20.6666 2.66667 20.6666H8V3.33331H2.66667Z"
+                        fill="#009A49"
+                      />
+                      <path
+                        d="M8 3.33331H16V20.6666H8V3.33331Z"
+                        fill="#EEEEEE"
+                      />
+                      <path
+                        d="M21.3333 3.33331H16V20.6666H21.3333C22.0406 20.6666 22.7189 20.3857 23.219 19.8856C23.719 19.3855 24 18.7072 24 18V5.99998C24 5.29274 23.719 4.61446 23.219 4.11436C22.7189 3.61426 22.0406 3.33331 21.3333 3.33331Z"
+                        fill="#009A49"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_377_2637">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  <span className="span-state">Nigerian Used</span>
+                </div>
+              </div>
+
+              {/* Product Logistics */}
+              <div className="product-logistics">
+                <div className="product-logistics-list">+ Free delivery</div>
+                <div className="product-logistics-list">+ 2 year warranty</div>
+                <div className="product-logistics-list">
+                  + Available in black
+                </div>
+              </div>
+            </div>
+            {/* End of 7 */}
+
+            {/* PROFILE 8 */}
+            <div className="product-profile product-profile--1">
+              <div className="product-header">
+                <div className="profile-img">
+                  {/* <img src="" alt="" className="profile-img" /> */}
+                </div>
+
+                <div className="profile-info">
+                  <h3 className="profile-name">Pascal's Gadgets</h3>
+
+                  <div className="product-rating">
+                    {/* Profile Rating SVG */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 2 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 3 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 4 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 5 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    <span className="no-five">5</span>
+                  </div>
+                </div>
+              </div>
+
+              <h3 className="product-title">Nokia C21 Plus</h3>
+
+              {/* Product Price and State */}
+              <div className="product-details">
+                <h2 className="product-price">₦4,000,000</h2>
+
+                <div className="product-state">
+                  {/* Country SVG */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_377_2680)">
+                      <path
+                        d="M22.74 16.3267L20.1267 11.9134L22.7133 7.68002C22.7747 7.57914 22.8083 7.46376 22.8104 7.34567C22.8126 7.22759 22.7834 7.11104 22.7258 7.00796C22.6681 6.90488 22.5841 6.81896 22.4824 6.759C22.3806 6.69904 22.2648 6.66718 22.1467 6.66669H1.33333C0.979711 6.66669 0.640573 6.80716 0.390524 7.05721C0.140476 7.30726 0 7.6464 0 8.00002L0 16C0 16.3536 0.140476 16.6928 0.390524 16.9428C0.640573 17.1929 0.979711 17.3334 1.33333 17.3334H22.1667C22.2843 17.3333 22.3999 17.3022 22.5016 17.243C22.6034 17.1839 22.6876 17.0989 22.7458 16.9966C22.8041 16.8944 22.8342 16.7785 22.8332 16.6609C22.8322 16.5432 22.8 16.4279 22.74 16.3267ZM7.00667 14.12H6.26L4.08667 11.2267V14.1267H3.33333V10H4.08667L6.26667 12.9V10H7.01333L7.00667 14.12ZM11.2267 10.6667H8.87333V11.66H11.0067V12.3267H8.87333V13.4H11.2267V14.0667H8.12V10H11.22L11.2267 10.6667ZM16.7533 14.1067H16L14.9667 11.0467L13.9333 14.12H13.1867L11.8533 10H12.6667L13.5467 12.9534L14.56 10H15.3733L16.3467 12.9534L17.2333 10H18.0533L16.7533 14.1067Z"
+                        fill="#6C4686"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_377_2680">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  <span className="span-state">Brand New</span>
+                </div>
+              </div>
+
+              {/* Product Logistics */}
+              <div className="product-logistics">
+                <div className="product-logistics-list">+ Free delivery</div>
+                <div className="product-logistics-list">+ 2 year warranty</div>
+                <div className="product-logistics-list">
+                  + Available in black
+                </div>
+              </div>
+            </div>
+            {/* End of Profile 8 */}
+
+            {/* PROFILE 9 */}
+            <div className="product-profile product-profile--1">
+              <div className="product-header">
+                <div className="profile-img">
+                  {/* <img src="" alt="" className="profile-img" /> */}
+                </div>
+
+                <div className="profile-info">
+                  <h3 className="profile-name">Femi & Tunde Gadgets</h3>
+
+                  <div className="product-rating">
+                    {/* Profile Rating SVG */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 2 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 3 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 4 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    {/* RATE 5 */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.85425 18.3333L6.20841 12.4792L1.66675 8.54167L7.66675 8.02083L10.0001 2.5L12.3334 8.02083L18.3334 8.54167L13.7917 12.4792L15.1459 18.3333L10.0001 15.2292L4.85425 18.3333Z"
+                        fill="#FFCA28"
+                      />
+                    </svg>
+
+                    <span className="no-five">5</span>
+                  </div>
+                </div>
+              </div>
+
+              <h3 className="product-title">Google Pixel 6a</h3>
+
+              {/* Product Price and State */}
+              <div className="product-details">
+                <h2 className="product-price">₦4,000,000</h2>
+
+                <div className="product-state">
+                  {/* Country SVG */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_377_2722)">
+                      <path
+                        d="M6.69995 12C6.70369 13.1083 6.84249 14.212 7.11328 15.2867H11.4333V8.96667H7.05328C6.82283 9.96146 6.70432 10.9789 6.69995 12Z"
+                        fill="#6C4686"
+                      />
+                      <path
+                        d="M12.5667 8.96667V15.2867H16.8867C17.1687 14.2134 17.3187 13.1097 17.3333 12C17.3311 10.9791 17.2149 9.96171 16.9866 8.96667H12.5667Z"
+                        fill="#6C4686"
+                      />
+                      <path
+                        d="M11.9999 1.33331C9.89026 1.33331 7.82797 1.9589 6.07384 3.13097C4.31972 4.30304 2.95254 5.96894 2.14521 7.91802C1.33787 9.8671 1.12664 12.0118 1.53821 14.0809C1.94979 16.1501 2.96569 18.0507 4.45745 19.5425C5.94921 21.0342 7.84983 22.0501 9.91896 22.4617C11.9881 22.8733 14.1328 22.662 16.0819 21.8547C18.031 21.0474 19.6969 19.6802 20.8689 17.9261C22.041 16.1719 22.6666 14.1096 22.6666 12C22.6666 9.171 21.5428 6.4579 19.5424 4.45751C17.542 2.45712 14.8289 1.33331 11.9999 1.33331ZM20.1466 16.4733H17.7333C17.277 17.9018 16.6023 19.2512 15.7333 20.4733C15.092 20.7528 14.421 20.9586 13.7333 21.0866C14.9649 19.7483 15.9128 18.1745 16.5199 16.46H12.5733V21.2266H11.4466V16.4733H7.47992C8.0862 18.1902 9.03417 19.7664 10.2666 21.1066C9.59303 20.98 8.93565 20.7787 8.30659 20.5066C7.43447 19.2742 6.75971 17.9135 6.30659 16.4733H3.85326C3.64028 16.0848 3.45537 15.6815 3.29992 15.2666H5.96659C5.71672 14.1955 5.58703 13.0999 5.57992 12C5.58029 10.9805 5.68754 9.9638 5.89992 8.96665H3.17326C3.31345 8.55297 3.48277 8.14974 3.67992 7.75998H6.21992C6.69652 6.17267 7.43563 4.67641 8.40659 3.33331C9.02231 3.07819 9.66382 2.89043 10.3199 2.77331C8.9937 4.19668 7.99281 5.89138 7.38659 7.73998H11.4466V2.66665H12.5733V7.75998H16.6333C16.0281 5.91434 15.0296 4.22204 13.7066 2.79998C14.3616 2.90864 15.0031 3.08745 15.6199 3.33331C16.5852 4.66671 17.322 6.15143 17.7999 7.72665H20.3133C20.5104 8.11642 20.6797 8.51964 20.8199 8.93331H18.1133C18.3302 9.94112 18.4397 10.9691 18.4399 12C18.4365 13.1063 18.309 14.2087 18.0599 15.2866H20.7266C20.5616 15.6955 20.3678 16.092 20.1466 16.4733Z"
+                        fill="#6C4686"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_377_2722">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  <span className="span-state">Foreign Used</span>
+                </div>
+              </div>
+
+              {/* Product Logistics */}
+              <div className="product-logistics">
+                <div className="product-logistics-list">+ Free delivery</div>
+                <div className="product-logistics-list">+ 2 year warranty</div>
+                <div className="product-logistics-list">
+                  + Available in black
+                </div>
+              </div>
+            </div>
+            {/* End of profile 9 */}
+            
           </div>
         </div>
       </div>
