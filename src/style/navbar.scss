@@ -1,0 +1,24 @@
+.navbar{
+  padding-left:100px;
+  padding-right: 100px;
+  margin-top:63px;
+  span{
+    color: #737373;
+    font-family: Open Sans, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+  }
+  .subparent{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    button{
+      border-radius: 40px;
+      border: 1px solid #F6D8AE;
+    }
+  }
+}

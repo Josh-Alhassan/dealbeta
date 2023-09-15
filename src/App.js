@@ -1,11 +1,11 @@
 import {Routes, Route} from "react-router-dom";
-import About from "./component/About";
-import Blog from "./component/Blog";
-import Contact from "./component/Contact";
-import Home from "./component/Home";
-import Navbar from "./component/Navbar";
-import Services from "./component/Services";
-import Team from "./component/Team";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import Navbar from "./shared/Navbar";
+import Services from "./pages/Services";
+import Team from "./pages/Team";
 
 function App() {
   return (
